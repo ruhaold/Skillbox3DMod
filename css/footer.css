@@ -1,0 +1,28 @@
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: var(--light-black);
+}
+
+.footer__menu {
+  display: flex;
+  gap: 30px;
+  max-height: 24px;
+}
+
+.footer__text-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.footer__trademark {
+  color: var(--blue);
+}

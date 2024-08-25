@@ -1,0 +1,36 @@
+.btn {
+  border-radius: 20px;
+  color: var(--white);
+  background: var(--blue);
+}
+
+.btn--prime {
+  padding: 20.5px 55px;
+}
+
+.btn--second {
+  padding: 20.5px 56px;
+}
+
+@media (min-width: 576px) {
+  .btn--prime {
+    padding: 24px 77px;
+    font-size: 18px;
+  }
+
+  .btn--second {
+    padding: 20.5px 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn--second {
+    padding: 20.5px 56px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .btn--second {
+    padding: 20.5px 59px;
+  }
+}

@@ -1,0 +1,41 @@
+.teachers {
+  padding-top: 47px;
+  padding-bottom: 25px;
+  background-color: var(--light-black);
+}
+
+.teachers__title {
+  margin-bottom: 26px;
+  color: var(--white);
+}
+
+.teachers__content-title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: var(--white);
+}
+
+.teachers__text {
+  margin-top: 0;
+  margin-bottom: 23px;
+  color: var(--light-gray)
+}
+
+.teachers__image {
+  display: block;
+  width: 100%;
+  margin-bottom: 33px;
+}
+
+@media (min-width: 576px) {
+  .teachers {
+    padding-top: 76px;
+    padding-bottom: 50px;
+  }
+
+  .teachers__title {
+    font-size: 40px;
+    margin-bottom: 24px;
+  }
+}
